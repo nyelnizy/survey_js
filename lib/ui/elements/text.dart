@@ -23,6 +23,8 @@ Widget textBuilder(BuildContext context, s.Elementbase element,
     helperText: ' ',
     hintText: hintText,
     isDense: true,
+    enabledBorder: const OutlineInputBorder(
+        borderSide: BorderSide(width: 0, style: BorderStyle.none)),
     border: const OutlineInputBorder(
         borderSide: BorderSide(width: 0, style: BorderStyle.none)),
   );

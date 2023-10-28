@@ -30,19 +30,11 @@ Widget defaultUnsupportedBuilder(BuildContext context, s.Elementbase element,
 Widget defaultSeparatorBuilder(
     BuildContext context,
     ) {
-  return  Wrap(
+  return  const Wrap(
     children: [
-      const SizedBox(
-        height: 5,
-      ),
-      Container(
-        width: double.infinity,
-        height: 3,
-        color: Colors.grey,
-      ),
-      const SizedBox(
-        height: 5,
-      ),
+      SizedBox(
+        height: 15,
+      )
     ],
   );
 }
