@@ -1,0 +1,18 @@
+{
+  "name": "schema",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "gen": "node index.js && npm run model",
+    "model": "bash ./model.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "survey-core": "1.9.101",
+    "yaml": "^2.2.1"
+  },
+  "type": "module"
+}

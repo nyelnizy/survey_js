@@ -1,0 +1,11 @@
+{
+  "nextPage": "Next Page",
+  "previousPage": "PreviousPage",
+  "submitSurvey": "Submit",
+  "add": "Add",
+  "remove": "Remove",
+  "placeholder": "Select...",
+  "otherItemText": "Other (describe)",
+  "noneItemText": "None",
+  "selectAllText": "Select All"
+}
